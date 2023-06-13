@@ -96,6 +96,10 @@
         height: auto;
         overflow: hidden;
     }
+
+    .i-scroll {
+        display: none;
+    }
     
     .i-right {
         width: 100%;
