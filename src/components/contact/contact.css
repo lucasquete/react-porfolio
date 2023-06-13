@@ -79,3 +79,23 @@ button {
     font-weight: 500;
     cursor: pointer;
 }
+
+@media (max-width:900px) {
+    .c {
+        height: auto;
+    }
+
+    .c-wrapper {
+        flex-direction: column;
+    }
+
+    .c-title {
+        font-size: 36px;
+        width: 100%;
+        text-align: center;
+    }
+
+    input {
+        width: 100%;
+    }
+}

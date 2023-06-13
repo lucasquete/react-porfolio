@@ -72,3 +72,24 @@
     margin-bottom: 10px;
     color: #555;
 }
+
+@media (max-width:900px) {
+    .a {
+        flex-direction: column-reverse;
+        height: auto;
+        gap: 50px;
+        padding: 20px;
+    }
+
+    .a-award {
+        text-align: center;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .a-title {
+        font-weight: 600;
+        text-align: center;
+    }
+
+}

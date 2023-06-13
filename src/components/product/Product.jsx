@@ -10,7 +10,7 @@ const Product = ({link}) => {
         <div className="p-circle"></div>
         <div className="p-circle"></div>
       </div>
-      <a href={link} target="_blank" rel="noreferrer">
+      <a href={link} rel="noreferrer">
         <img src={image} alt="" className="p-img" />
       </a>
     </div>
